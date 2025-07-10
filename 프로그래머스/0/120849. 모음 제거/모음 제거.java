@@ -1,22 +1,21 @@
 class Solution {
     public String solution(String my_string) {
         String answer = "";
-        char []arr = new char[my_string.length()];
+        char []en = {'a', 'e', 'i', 'o', 'u'};
+        int cheak = 0; 
+        
         for (int i = 0; i < my_string.length(); i++) {
-            arr[i] = my_string.charAt(i);
+            for (int j = 0; j < en.length; j++) {
+                if(my_string.charAt(i) != en[j]) {
+                    cheak++;
+                }
+            }
+            if (cheak == 5) {
+                answer += my_string.charAt(i);
+            }
+            cheak = 0; 
         }
         
-        for (int i = 0; i < arr.length; i++) {
-            switch (arr[i]) {
-                case 'a' : break;
-                case 'e' : break;
-                case 'i' : break;
-                case 'o' : break;
-                case 'u' : break;
-                    default : answer = answer + arr[i];
-                    break;
-            }
-        }
         return answer;
     }
 }
