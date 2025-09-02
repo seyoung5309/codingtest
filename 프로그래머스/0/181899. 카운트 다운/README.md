@@ -1,10 +1,10 @@
 # [level 0] 카운트 다운 - 181899 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181899) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181899?language=c) 
 
 ### 성능 요약
 
-메모리: 75.1 MB, 시간: 0.04 ms
+메모리: 4.16 MB, 시간: 1.63 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 07월 21일 10:05:46
+2025년 09월 03일 08:17:55
 
 ### 문제 설명
 
