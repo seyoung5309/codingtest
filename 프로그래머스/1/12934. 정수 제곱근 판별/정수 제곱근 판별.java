@@ -1,0 +1,17 @@
+class Solution {
+    public long solution(long n) {
+        long answer = 0;
+
+        for (long i = 1; i <= n; i++) {
+            if (i * i == n) {
+                answer += i+1; 
+                break;
+            }
+        }
+        if (answer == 0) {
+            return -1;
+        }
+        answer *= answer;
+        return answer;
+    }
+}
