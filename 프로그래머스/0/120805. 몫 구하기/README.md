@@ -1,10 +1,10 @@
 # [level 0] 몫 구하기 - 120805 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120805?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120805?language=cpp) 
 
 ### 성능 요약
 
-메모리: 87.8 MB, 시간: 0.02 ms
+메모리: 3.63 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 04월 08일 23:09:32
+2025년 10월 14일 08:17:23
 
 ### 문제 설명
 
