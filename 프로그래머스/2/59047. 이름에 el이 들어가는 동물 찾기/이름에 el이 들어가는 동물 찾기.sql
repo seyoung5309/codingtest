@@ -1,0 +1,9 @@
+SELECT ANIMAL_ID, NAME
+FROM ANIMAL_INS
+WHERE ANIMAL_TYPE = "DOG"
+AND (NAME like '%el%' 
+OR NAME like '%El%'
+OR NAME like '%eL%'
+OR NAME like '%EL%')
+
+ORDER BY NAME ASC;
