@@ -1,10 +1,20 @@
 function solution(myString) {
-    var answer = myString.split("x");
-    for (let i = 0; i < answer.length; i++) {
-        if (answer[i] == '') {
-            answer.splice(i--, 1);
+    var answer = [];
+    var tmp = "";
+    for (let m of myString) {
+        if (m != "x") {
+            tmp += m;
+        } else {
+            if (tmp == "") {
+                continue;
+            }
+            answer.push(tmp);
+            tmp = "";
         }
     }
-    answer = answer.sort();
+    if (tmp != "") {
+        answer.push(tmp);
+    }
+    answer.sort();
     return answer;
 }
